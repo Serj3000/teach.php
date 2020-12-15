@@ -6,7 +6,7 @@ echo '('.__FILE__.')'.'<br>';
 //=================================================
 
 if (count($_POST)>0){
-
+    //trim() — Удаляет пробелы (или другие символы) из начала и конца строки
     $log=trim($_POST['login']);
     $pas=trim($_POST['password']);
 
@@ -14,7 +14,8 @@ if (count($_POST)>0){
         $result='Error';
     }else{
         $result='Ожидайте';
-        file_put_contents('POST/input.txt',"$log - $pas\n",FILE_APPEND);
+        //file_put_contents() — Пишет данные в файл
+        file_put_contents('POST/input.txt', "$log - $pas\n", FILE_APPEND);
     }
 }
 ?>

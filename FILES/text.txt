@@ -1,0 +1,3 @@
+Hi, i am a file_put_contents
+
+John Smith

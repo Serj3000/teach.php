@@ -45,7 +45,14 @@ include 'Str_split/str_split.php';
 
 
 include 'Classes/Doggy.php';
+include 'Classes/iterate.php';
 
 //include 'Interfaces/someInterface.php';
 include 'Interfaces/interfaces.php';
 include 'Abstract/abstract.php';
+
+echo '___________Mail________________________';
+include 'Mail/forma_email.php';
+
+echo '___________FileOpen________________________<br>';
+include 'FILES/fileOpen.php';
