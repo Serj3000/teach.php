@@ -1,3 +1,8 @@
+<?php
+echo '<br>======================================================================<br>';
+echo '<b>Пример №# - mail.php </b> mail( ) <br>';
+echo '('.__FILE__.')'.'<br>';
+?>
 <form action="/Mail/mail.php" method="POST">
 <lable>Text e-mail</label>
 <input type="text" name="text" value="hello">

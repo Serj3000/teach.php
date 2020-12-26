@@ -47,12 +47,45 @@ include 'Str_split/str_split.php';
 include 'Classes/Doggy.php';
 include 'Classes/iterate.php';
 
+// echo '<br>-----------------Constant--------------------<br>';
+include 'Classes/Constants.php';
+use Classes\Constants;
+echo Constants::CLASSCONST;
+$clasconst=new Constants();
+echo $clasconst->brem();
+
 //include 'Interfaces/someInterface.php';
 include 'Interfaces/interfaces.php';
 include 'Abstract/abstract.php';
 
-echo '___________Mail________________________';
+// echo '___________Mail________________________';
 include 'Mail/forma_email.php';
 
-echo '___________FileOpen________________________<br>';
+// echo '___________FileOpen________________________<br>';
 include 'FILES/fileOpen.php';
+
+// echo '___________Define________________________<br>';
+include 'Define/constant.php';
+
+echo '<br>_____________________get_defined_constants()________________________<br>';
+// print_r(get_defined_constants(true));['APPCONST']
+$arr_const=get_defined_constants(true);
+print_r($arr_const['user']);
+
+echo '<br>_____________________get_defined_vars()________________________<br>';
+$arr_var = get_defined_vars(false);
+echo '<br>var=<br>';
+print_r($arr_var);
+
+echo '<br>_____________________get_defined_functions()________________________<br>';
+$arr_func = get_defined_functions(false);
+echo '<br>func=<br>';
+print_r($arr_func['user']);
+
+
+
+include 'Parse_ini_file/ini/ini.php';
+
+include 'Parse_ini_file/csv/csv.php';
+
+include 'Parse_ini_file/json/json.php';

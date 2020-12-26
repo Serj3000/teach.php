@@ -1,0 +1,15 @@
+{
+   "firstName":"\u0418\u0432\u0430\u043d",
+   "lastName":"\u0418\u0432\u0430\u043d\u043e\u0432",
+   "address":{
+      "address":"Tokio, 507",
+      "city":"Tokio",
+      "country":"Japan",
+      "index":1001123
+   },
+   "phoneNumber":{
+      "0":"435-435-45",
+      "1":"453-453-56",
+      "9":"777-77-77"
+   }
+}

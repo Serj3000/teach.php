@@ -1,0 +1,14 @@
+{
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "address": {
+      "address": "Tokio, 507",
+      "city": "Tokio",
+      "country": "Japan",
+      "index": 1001123
+  },
+  "phoneNumber": [
+      "435-435-45",
+      "453-453-56"
+  ]
+}
