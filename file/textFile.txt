@@ -1,0 +1,3 @@
+Hi, i'am file textFile.txt
+Hey, i'am second row
+And i'am tree row

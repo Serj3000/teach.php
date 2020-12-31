@@ -61,8 +61,20 @@ include 'Abstract/abstract.php';
 // echo '___________Mail________________________';
 include 'Mail/forma_email.php';
 
-// echo '___________FileOpen________________________<br>';
+echo '<br>xxxxxxxxxxxxxxxxxxxxxxxxxxx<b> Работа с файлами </b>xxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>';
+// echo '___________File()________________________<br>';
+include 'file/file.php';
+
+// echo '___________ReadFile()________________________<br>';
+include 'file/readfile.php';
+
+// echo '___________fOpen()________________________<br>';
+include 'fopen/fopen.php';
+
+// echo '___________FileOpen()________________________<br>';
 include 'FILES/fileOpen.php';
+
+echo '<br>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br>';
 
 // echo '___________Define________________________<br>';
 include 'Define/constant.php';

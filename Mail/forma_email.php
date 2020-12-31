@@ -1,6 +1,6 @@
 <?php
 echo '<br>======================================================================<br>';
-echo '<b>Пример №# - mail.php </b> mail( ) <br>';
+echo '<b>Пример №# - mail.php </b> Функция mail( ) <br>';
 echo '('.__FILE__.')'.'<br>';
 ?>
 <form action="/Mail/mail.php" method="POST">

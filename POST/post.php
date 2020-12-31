@@ -33,8 +33,10 @@ Password:
 </pre>
 
     <?php
-    echo '<br><pre>';
+    echo '<br><pre>$_POST=<br>';
     print_r($_POST);
+    echo '<br>$_REQUEST=<br>';
+    print_r($_REQUEST);
     echo '<br></pre>';
     ?>
 </form>
