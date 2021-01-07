@@ -5,9 +5,11 @@ include 'COOKIE/login.php';
 //include 'COOKIE/cookies.php';
 
 
-echo '<br>======================================================================<br>';
+// echo '<br>======================================================================<br>';
 //[HTTP_COOKIE] => _ga=GA1.2.1877048947.1587123788; __unam=6f77879-17187f31725-30874d83-12
 //echo 'Привет, ' . htmlspecialchars($_COOKIE["TestCookie"]) . '!';
+
+include 'HEREDOC/heredoc.php';
 
 include 'GET/get.php';
 include 'POST/post.php';
@@ -71,6 +73,9 @@ include 'file/readfile.php';
 // echo '___________fOpen()________________________<br>';
 include 'fopen/fopen.php';
 
+// echo '___________fRead()________________________<br>';
+include 'fopen/fread.php';
+
 // echo '___________FileOpen()________________________<br>';
 include 'FILES/fileOpen.php';
 
@@ -94,7 +99,7 @@ $arr_func = get_defined_functions(false);
 echo '<br>func=<br>';
 print_r($arr_func['user']);
 
-
+include 'yield/yield.php';
 
 include 'Parse_ini_file/ini/ini.php';
 
