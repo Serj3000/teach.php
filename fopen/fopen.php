@@ -8,6 +8,8 @@ $file_path='fopen/fileDescript.txt';
 
 $fd=fopen($file_path, 'r');
 
+fclose($fd);
+
 echo '<br><br>><b>Код</b><br>';
 echo '<br><i> $file_path="fopen/fileDescript.txt";</i><br>';
 echo '<i> $fd=fopen($file_path, "r");</i><br><br>';
